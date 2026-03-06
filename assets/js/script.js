@@ -164,8 +164,8 @@ window.addEventListener("click", function (event) {
 // Resume Download
 function downloadResume() {
   const link = document.createElement("a");
-  link.href = "./assets/PDF/AHMAD SAHL PAHLEVI - Resume.pdf";
-  link.download = "AHMAD SAHL PAHLEVI - Resume.pdf";
+  link.href = "./assets/PDF/Ahmad Sahl Pahlevi - Resume.pdf";
+  link.download = "Ahmad Sahl Pahlevi - Resume.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
